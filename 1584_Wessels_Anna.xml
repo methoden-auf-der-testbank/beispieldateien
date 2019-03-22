@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Urgicht Anna Wessels 1584</title>
+                <principal xml:id="KM">Katrin Moeller</principal>
+                <principal xml:id="AM">Andreas Müller </principal>
+            </titleStmt>
+            <editionStmt>
+                <p> Transkriptionsrichtlinien abrufbar auf:
+                    https://opendata.uni-halle.de/HEXEREI_Transkriptionsrichtlinien</p><!-- Link wird noch eingefügt sobald verfügbar -->
+            </editionStmt>
+            <publicationStmt>
+                <publisher>MLU Halle/Wittenberg</publisher>
+                <date>03-2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>STA HRO 1.1.3.1. Nr 231. 300v-302r.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The original transcript was made by Katrin Moeller and Andreas Müller from
+                    October 2017 to March 2019. The markups was created with the help of the student
+                    Ronja Hohbach. The frist XML/TEI Version was created by Andreas Müller from
+                    January to March 2019 with advisory support by Torsten Roeder.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2019-03-21" who="#AM">V 1.0: Created basic XML markup including place,
+                    date, person and occupation.</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://opendata.uni-halle.de/HEXEREI_Faksimile"/> <!-- Link wird noch eingefügt sobald verfügbar -->
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <pb n="300v"/>
+                <head xml:space="preserve" type="main">Sabbati <date when="1584-08-08">8 Augusti anno <ex>15</ex>84</date> /</head>
+                <p>
+                    <lb/><hi rend="large"><persName>Anna Weſſels</persName> <persName>Jochim Bramſen</persName>
+                        <lb/>eheweib von <placeName>Lünenborg</placeName>
+                        <lb/>bortig.</hi></p>
+                <p n="1">1. Bekandt, Das Jhr Vatter <persName>Lorentz Weßell</persName> ein 
+                    <lb/><rs type="occupation">Krigeßman</rs> binnen <placeName>Lünenborg</placeName> geſtorben. </p>
+                <p n="2">2. Bekandt, Das ein <rs type="occupation">Eddelman</rs> <persName>Harkwerth Vterſte
+                    <lb break="no"/>wher</persName> ſie vor 14. Jharen beſchlapen, </p>
+                <p n="3">3. Bekandt, Das <persName>Hinrich</persName> der <rs type="occupation">Apotheker</rs> ſie Zum 
+                    <lb/>Andern mal beſchlapen </p>
+                <p n="4">4. Bekandt, Das ihr dieſer man in <persName>hinrich</persName>
+                    <lb/>hofes huſe vertrewet worden, </p>
+                <p n="5">5. Bekandt, Das ſie ein Brieff mit Caractern
+                    <lb/>von einem Schreiber <persName>Melchior Weſt 
+                    <lb break="no"/>phalen</persName> gekregen, vnd wuſte nicht
+                    <lb/>wor ſie gueth zu, allein was drauf
+                    <lb/>geſchrieben ſteith </p>
+                <p n="6">6. Bekandt Das ſie den Brieff vielmaln
+                    <lb/>mit den Caractern Abgeſchrieben vnd
+                    <lb/>den Leuten gethan, </p>
+                <p n="7">7. Bekandt, das ſie der <persName>Maſeſchen Zur
+                    <lb/>Wilſen</persName> 4. Briefe gethan gegen den
+                    <lb/>Dufel vnd das Jhr das Korn nicht ſolt
+                    <lb/>aus der Schunen geſtolen werden, </p>
+                <p n="8">8. Bekandt, Das ſie einem <rs type="occupation">Paurſman</rs> <persName>Euerdes</persName>
+                    <lb/>auch vier Briefe gethan, Die ſolte Er ge
+                    <lb break="no"/>brauchen, Das Jhm das Viehe nicht beZeubert
+                    <lb/>worde, od<ex>er</ex> das Korn geſtolen worde, dieſer
+                    <lb/>hette ihr 1/2 thaler gegeben.</p>
+                <pb n="301r"/>
+                <p n="9">9. Bekandt, Das ſie der <rs type="occupation">Nonnen</rs> <rs type="occupation">Paur</rs> auch vier Briefe
+                    <lb/>gethan, die ſolte Er in die Zimmer ſtechen
+                    <lb/>Das ihm die diebe ſo dem <rs type="occupation">Pauren</rs> das gelt
+                    <lb/>geſtohlen ſein Timmer nicht Anſticken
+                    <lb/>ſolten, Auch hette ihr dieſer <rs type="occupation">Paur</rs> 4. thal<ex>er</ex>.
+                    <lb/>zugeſagt, Daruor wolte ſie ihm wieder
+                    <lb/>ſchaffen die diebe die ihm ſein gelt
+                    <lb/>geſtolen, Vnd hette 2. thaler von ihm
+                    <lb/>empfangen, 2. weren ihr noch nachſtendig, </p>
+                <p n="10">10. Bekandt, Das ſie <persName>Klinckeman</persName> der <rs type="occupation">Nonnen</rs> <rs type="occupation">Paurn</rs>
+                    <lb/>drei Kochken gemachet von honnig Weitz<ex>en</ex>.
+                    <lb/>mehle, Roſenwaßer Puluerirde Poppel
+                    <lb/>Wife Krich, Das Sarth von der Waßer
+                    <lb break="no"/>munth vnd Roſenbleder, Diß ſolte Er
+                    <lb/>gebrauchen gegen den Vorgifft, Noch
+                    <lb/>hette ſie dieſem <rs type="occupation">Pauren</rs> geſchicket in einem
+                    <lb/>Kruckeſchen, holwortz, Lorbern Mu
+                    <lb break="no"/>ſchaten, Muſchatenblomen vnd Driakel
+                    <lb/>vnd ein ſtucke Wein vnd einen Brief
+                    <lb/>den hette Er muſſen in den Halß heng<ex>en</ex>.
+                    <lb/>mit Dufels bittewurtzel, </p>
+                <p n="11">11. Bekandt, Wen einer Dufels bittewurtzel
+                    <lb/>bei ſich truge, ſo ſolte ihm kein böſe
+                    <lb/>wiederfaren von Zeubererſchen, vnd
+                    <lb/>ſolche Wurtzel hette ſie bei alle
+                    <lb/>Briefe gelecht </p>
+                <p n="12">12. Bekandt, Das ſie etlich Kriden geſchrapet
+                    <lb/>vnd in ein ſchirtucheſchen gebunden, <pb n="301v"/>
+                    <lb/>Diß hette ſie <persName>Margrethen</persName> dem Andern weib fur
+                    <lb break="no"/>gelecht vnd geſagt Das es ein Chriſtall wer, </p>
+                <p n="13">13. Bekandt, Das ſie <persName>Stantzen</persName> Tochter vor 3. woch<ex>en</ex>
+                    <lb/>die Planeth<ex>en</ex> geleſen dauor hette ſie 
+                    <lb/>Jhr 2 ſch<ex>i</ex>ll<ex>ing</ex>s gegeben, Vnd ein Ander ſo
+                    <lb/>bei ſie geweſen hette Jhr 2 ſch<ex>illing</ex>. gegeben, </p>
+                <p n="14">14. Bekandt, Das ſie wol 20 <rs type="occupation">Megeden</rs> die
+                    <lb/>Planethen vorgeleſen </p>
+                <p n="15">15. Bekandt, Das ſie Zu dieſem Weib <persName>Margreth<ex>en</ex>.</persName>
+                    <lb/>geſagt Das Jhr Breutigam wurde
+                    <lb/>aus Dennemarcken balde wiederkom<ex>m</ex>en </p>
+                <p n="16">16. Bekandt, Das <persName>Margretha</persName> do ſie noch in
+                    <lb/>den Badtſtauen gewonet ein Schapſcher
+                    <lb/>genommen vnd in ein Sefhe gestoch<ex>en</ex>.
+                    <lb/>vnd dal gehenget vnd geſagt 3 mal
+                    <lb/><persName>Anna</persName> iſt ſchwanger <persName>Anna</persName> iſt nicht ſchwang<ex>er</ex>
+                    <lb/>vnd das Sefhe wer dem Andern weib Auf
+                    <lb/>den fingern Runth vmb hero gelauffen
+                    <lb/>vnd ſie wer Auch ſchwanger geweſen, Den
+                    <lb/>ſie Ihr geſagt ſo wer 11 wochen ſo gewesen </p>
+                <p n="17">17. Bekandt, Das ſie von einem Andern Weib die
+                    <lb/>Sliruppeſchen geſehen, das die 3 bethen
+                    <lb/>brodes gebeten Jn nahmen des Vatters
+                    <lb/>vnd des Sons vnd des heiligen Geiſtes
+                    <lb/>vnd ſolchs hette das Ander Weib <persName>Mar
+                    <lb break="no"/>gretha</persName> auch gebrauchet, den ſie die
+                    <lb/>biſchen broth vnd Kalen bei ſie geſehen</p>
+                    <pb n="302r"/>
+                    <p><hi rend="large">Martis <date when="1584-08-11">11. Augusti A<ex>nn</ex>o <ex>15</ex>84</date></hi>
+                    <lb/>Vor <persName>Claus Hermens</persName> dem <rs type="occupation">Olt 
+                    <lb break="no"/>schneider</rs> vnd <persName>Heinrich Lein
+                    <lb break="no"/>meyer</persName> Alß gezeugen hier zu
+                    <lb/>gefordert iſt dis weib
+                    <lb/>die obbeſchriebene Be
+                    <lb break="no"/>kendtnus geſtendig
+                    <lb/>gewesen, </p>
+                <p><hi rend="large">Mercurij <date when="1584-08-12">12. Augusti a<ex>nn</ex>o <ex>15</ex>84</date></hi>
+                    <lb/>Dieß weib iſt geſtrichen vnd
+                    <lb/>der Stadt <placeName>Roſtock</placeName> vnd derſelbig<ex>en</ex>.
+                    <lb/>gePiete in perpetuum vor
+                    <lb break="no"/>wieſen worden. / </p>
+            </div>
+        </body>
+    </text>
+</TEI>
